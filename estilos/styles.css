@@ -1,0 +1,468 @@
+body{
+    background-image: url("../backgrounds/fundo.png");
+    background-size: cover;
+    margin: 0;
+    padding:0;
+    height: 100vh;
+    width: 100vh
+ 
+}
+
+.logo{
+    position: absolute;
+    width: 205px;
+    height: 100px;
+    left: 0px;
+    top: 10px;
+}
+.logo1{
+    position: absolute;
+    width: 384px;
+    height: 92px;
+    left: 153px;
+    top: 18px;
+    
+    font-family: 'Goldman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    text-decoration: none;
+    
+    color: #FFFFFF;
+}
+.search-box{
+
+    position: absolute;
+    width: 522px;
+    height: 67px;
+    left: 891px;
+    top: 43px;
+    font-size: 35px;
+    
+    
+}
+
+.search-btn{
+    position: absolute;
+width: 64px;
+height: 46px;
+left: 1335px;
+top: 54px;
+}
+
+.carrinho{
+    position: absolute;
+width: 85px;
+height: 86px;
+left: 1502px;
+top: 24px;
+}
+.entrar{
+    position: absolute;
+width: 132px;
+height: 38px;
+left: 1752px;
+top: 59px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+text-decoration: none;
+color:white
+}
+
+.fundolog{
+    position: absolute;
+width: 193px;
+height: 54px;
+left: 1691px;
+top: 43px;
+}
+
+.hamburg {
+    position: absolute;
+    width: 365px;
+    height: 60px;
+    left: 0px;
+    top: 121px;
+}
+
+
+#checkbox-menu{
+position:absolute;
+opacity : 0;
+top: 50%
+
+
+}
+
+label{
+    cursor:pointer;
+    position: relative;
+    display:block;
+    height:22px;
+    width:35px;
+    top:138px;
+    left:20px
+
+
+}
+
+label span{
+
+position: absolute;
+display: block;
+height: 5px;
+width: 100%;
+border-radius: 30px;
+background: #FFF3F3;
+transition:0.25s ease-in-out;
+top: 137px
+}
+label span:nth-child(1){
+    top:1px;
+    
+
+}
+label span:nth-child(2){
+    top:10.5px
+}
+label span:nth-child(3){
+    top:20px
+}
+
+#checkbox-menu:checked + label span:nth-child(1){
+transform: rotate(-45deg);
+top: 8px;
+
+}
+#checkbox-menu:checked + label span:nth-child(2){
+opacity:0;
+
+
+}
+#checkbox-menu:checked + label span:nth-child(3){
+    transform: rotate(45deg);
+
+top:8px;
+}
+
+
+.departamentos{
+    position: absolute;
+width: 227px;
+height: 44px;
+left: 45px;
+top: 137px;
+
+font-family: 'Galindo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+
+color: #FFF3F3;
+}
+
+.gowrag {
+    position: absolute;
+    width: 850px;
+    height: 658px;
+    left: 65px;
+    top: 212px;
+}
+
+.titulogod{
+    position: absolute;
+    width: 860px;
+    height: 115px;
+    left: 980px;
+    top: 229px;
+    font-family: 'Inria Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.textogod{
+    position: absolute;
+width: 825px;
+height: 262px;
+left: 1000px;
+top: 370px;
+
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 58px;
+line-height: 77px;
+text-align: center;
+
+color: #FFFFFF
+
+}
+
+.saibamaisfundo{
+    position: absolute;
+width: 326px;
+height: 96px;
+left: 1253px;
+top: 774px;
+}
+
+
+
+.saibamaistxt{
+    position: absolute;
+width: 286px;
+height: 75px;
+left: 1273px;
+top: 804px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+text-align: center;
+
+color: #FFFFFF;
+text-decoration: none;
+}
+
+.prevenda{
+    position: absolute;
+    width: 735px;
+    height: 74px;
+    left: 628px;
+    top: 920px;
+    
+    font-family: 'Inria Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    
+    color: #FFFBFB;
+}
+
+
+
+.cadeira{
+    position: absolute;
+width: 990px;
+height: 846px;
+left: 37px;
+top: 1871px;
+}
+
+.cadeiratxt{
+    position: absolute;
+width: 817px;
+height: 427px;
+left: 1070px;
+top: 1940px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 58px;
+text-align: center;
+color: white;
+}
+
+.saibacadeira{
+    position: absolute;
+width: 326px;
+height: 96px;
+left: 1253px;
+top: 2600px
+}
+
+.saibacadeiratxt{
+    text-decoration: none;
+    position: absolute;
+    width: 286px;
+    height: 75px;
+    left: 1273px;
+    top: 2628px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    
+    color: #FFFFFF
+
+}
+
+.logorodape{
+    position: absolute;
+width: 346.65px;
+height: 300px;
+left: 0px;
+top: 3120px;
+}
+
+.institucional{
+    position: absolute;
+width: 329px;
+height: 59px;
+left: 262px;
+top: 0px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+text-decoration-line: underline;
+
+color: #FFFFFF
+
+    }
+    .quem_somos{
+        position: absolute;
+        width: 329px;
+        height: 59px;
+        left: 235px;
+        top: 60px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        text-decoration-line: none;
+        
+        color: #FFFFFF
+        
+    }
+
+    .nossas_lojas{
+        position: absolute;
+        width: 329px;
+        height: 59px;
+        left: 235px;
+        top: 115px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        text-decoration-line: none;
+        
+        color: #FFFFFF
+        
+    }
+    .ajuda{
+        position: absolute;
+width: 209px;
+height: 44px;
+left: 591px;
+top: 0px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+text-align: right;
+text-decoration-line: underline;
+
+color: #FFFFFF;
+    }
+    .sac{
+        position: absolute;
+        width: 329px;
+        height: 59px;
+        left: 552px;
+        top: 60px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        text-decoration-line: none;
+        
+        color: #FFFFFF
+    }
+    .fale_conosco{
+        position: absolute;
+        width: 329px;
+        height: 59px;
+        left: 605px;
+        top: 115px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        text-decoration-line: none;
+        
+        color: #FFFFFF
+
+    }
+
+    .redes_sociaistxt{
+        position: absolute;
+width: 369px;
+height: 68px;
+left: 1300px;
+top: -10px;
+
+font-family: 'Inria Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+
+color: #FFFFFF;
+    }
+
+    .instagramlogo{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 1150px;
+        top: 75px;
+    }
+
+.facebooklogo{
+    position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 1400px;
+        top: 75px;
+
+}
+.whatsapplogo{
+    
+    position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 1650px;
+        top: 75px;
+}
